@@ -1,0 +1,39 @@
+<ons-page id="pg-login">
+	<div class="background bg-white"></div>
+	<div class="content">
+		<div class="center-tengah">
+			<div class="logo">
+				<img src="assets/img/logo-new.png" class="img-responsive img-login centreeee" alt="logo">
+				<p>Online Video Generation</p>
+			</div>
+			<div class="container">
+				<form id="form-login" class="my-from">
+					<div class="form-group">
+						<i class="fa fa-user icon-input" style=""></i>
+						<input type="email" name="lemail" id="lemail" class="form-control" placeholder="Kode agen" autocomplete="off">
+					</div>
+					<div class="form-group">
+						<i class="fa fa-lock icon-input" style=""></i>
+						<input type="password" name="password" id="password" class="form-control" placeholder="Kata sandi" autocomplete="off">
+					</div>
+					<div class="form-group">
+						<button type="button" id="btn-login" class="btn btn-yellow btn-full text-navy">Masuk</button>
+					</div>
+					<!-- <div class="form-group">
+						<button type="button" id="btn-register" class="btn btn-navy-outline btn-full text-navy">Sign Up</button>
+					</div> -->
+				</form>
+			</div>
+		</div>
+		<div class="bottom-yellow"></div>
+	</div>
+	<ons-modal direction="up">
+	  <div style="text-align: center">
+	    <p>
+			<i class="fa fa-circle-o-notch fa-spin fa-3x fa-fw"></i>
+			<span class="sr-only">Loading...</span>
+	    </p>
+	    Mohon menunggu...
+	  </div>
+	</ons-modal>
+</ons-page>

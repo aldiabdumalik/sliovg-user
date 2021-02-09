@@ -1,0 +1,87 @@
+<ons-page id="pg-step-2" class="pg-step-2">
+	<div class="background bg-gray"></div>
+	<div class="content">
+		<div class="step-header-1">
+			<div class="sub-header">
+				<h3 class="text-white">TEMPLATE VIDEO</h3>
+			</div>
+			<div class="step-proses text-white" style="font-size:14px;">
+				<span>Pilih template &nbsp;&nbsp;</span>
+				<i class="fa fa-play text-yellow"></i>
+				<span>&nbsp;&nbsp; Edit Video &nbsp;&nbsp;</span>
+				<i class="fa fa-play text-yellow"></i>
+				<span>&nbsp;&nbsp; Pilih musik &nbsp;&nbsp;&nbsp;</span>
+				<i class="fa fa-play text-yellow"></i>
+				<span>&nbsp;&nbsp; Proses Video </span>
+			</div>
+			<hr class="step-hr" />
+			<div class="my-from">
+				<ul class="menu-atas">
+					<li>
+						<a href="#" onclick="myPage.resetToPage('page/dashboard.html', {animation:'slide'});">
+						<i class="fa fa-home"></i> Beranda</a>
+					</li>
+					<li>
+						<a href="#" onclick="myPage.resetToPage('page/myvideo.html', {animation:'slide'});">
+						<i class="fa fa-cloud-download"></i> Video saya</a>
+					</li>
+					<li>
+						<a href="#" onclick="myPage.resetToPage('page/step-1.html', {animation:'slide'});">
+						<i class="fa fa-file-video-o"></i> Template Video</a>
+					</li>
+					<li>
+						<a href="#" onclick="myPage.resetToPage('page/calendar.html', {animation:'slide'});">
+						<i class="fa fa-calendar"></i> Kalender</a>
+					</li>
+					<li>
+						<a href="#" onclick="myPage.resetToPage('page/tutorial.html', {animation:'slide'});">
+						<i class="fa fa-cog"></i> Petunjuk penggunaan</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="container">
+			<div class="step-template">
+				<div id="judul-template" class="judul-template text-center mb-10"></div>
+				<form class="my-from" style="padding-bottom: 50px;padding-top:15px;">
+					<div class="form-group">
+						<img id="img-template" class="img-responsive" alt="template">
+					</div>
+					<div class="form-group-all">
+						<label id="masking-text-1" for="text-1">text-1 <b>(wajib diisi)</b></label>
+						<div class="form-group">
+							<i id="check-text-1" class="fa fa-check-circle ic-check text-yellow hilang"></i>
+							<input type="text" id="text-1" name="text-1" class="form-control-step" maxlength="50">
+						</div>
+					</div>
+					<div id="form-hide-2" class="form-group-all" hidden>
+						<label id="masking-text-2" for="text-2">text-2 <b>(wajib diisi)</b></label>
+						<div class="form-group">
+							<i id="check-text-2" class="fa fa-check-circle ic-check text-yellow hilang"></i>
+							<!-- <textarea name="text-2" id="text-2" class="form-control-step" cols="30" rows="10"></textarea> -->
+							<input type="text" id="text-2" name="text-2" class="form-control-step" maxlength="70">
+						</div>
+					</div>
+					<div id="form-hide-3" class="form-group-all" hidden>
+						<label id="masking-text-3" for="text-3">text-3 <b>(wajib diisi max 150 karakter)</b></label>
+						<div class="form-group">
+							<i id="check-text-3" class="fa fa-check-circle ic-check text-yellow hilang"></i>
+							<textarea name="text-3" id="text-3" class="form-control-step" cols="30" rows="10" maxlength="150"></textarea>
+						</div>
+					</div>
+					<!-- <div id="form-hide-preview" class="form-group-all" hidden>
+						<button type="button" id="btn-to-preview" class="btn btn-yellow btn-full text-white mt-20px"><i class="fa fa-eye"></i> Lihat terlebih dahulu</button>
+					</div> -->
+				</form>
+			</div>
+			<ons-row class="mb-10">
+				<ons-col>
+					<button type="button" id="btn-step-1-prev" class="btn btn-navy btn-full text-white mt-20px"><i class="fa fa-arrow-left"></i> Kembali</button>
+				</ons-col>
+				<ons-col>
+					<button type="button" id="btn-step-1-next" class="btn btn-yellow btn-full text-white mt-20px">Selanjutnya <i class="fa fa-arrow-right"></i></button>
+				</ons-col>
+			</ons-row>
+		</div>
+	</div>
+</ons-page>

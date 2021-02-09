@@ -1,0 +1,434 @@
+{
+  "Anniversary-1.mp4": {
+    "masking-text-1": {
+      "label": "1 Kata Nama Wanita (wajib diisi)",
+      "value": "Sherly"
+    },
+    "masking-text-2": {
+      "label": "1 Kata Nama Pria (wajib diisi)",
+      "value": "Angga"
+    },
+    "masking-text-3": {
+      "label": "Pesan Anda (wajib diisi max 150 karakter)",
+      "value": "There is no more lovely, friendly and charming relationship, communion or company than a good marriage"
+    },
+    "text-1": {
+      "font-size": "20px",
+      "color": "#c9366c",
+      "position": "absolute",
+      "top": "51px",
+      "left": "26px",
+      "font-family": "adlery-pro"
+    },
+    "text-2": {
+      "font-size": "20px",
+      "color": "#c9366c",
+      "position": "absolute",
+      "top": "51px",
+      "right": "19px",
+      "font-family": "adlery-pro"
+    },
+    "text-3": {
+      "position": "absolute",
+      "bottom": "5px",
+      "left": 0,
+      "right": 0,
+      "text-align": "center",
+      "font-size": "9px",
+      "color": "#c9366c",
+      "padding": "30px"
+    }
+  },
+  "Anniversary-2.mp4": {
+    "masking-text-1": {
+      "label": "1 Kata Nama Wanita (wajib diisi)",
+      "value": "Sherly"
+    },
+    "masking-text-2": {
+      "label": "1 Kata Nama Pria (wajib diisi)",
+      "value": "Angga"
+    },
+    "masking-text-3": {
+      "label": "Pesan Anda (wajib diisi max 150 karakter)",
+      "value": "A successful marriage requires falling in love many times, always with the same person"
+    },
+    "text-1": {
+      "font-size": "12px",
+      "color": "#000",
+      "position": "absolute",
+      "top": "30px",
+      "left": "69px",
+      "font-family": "ch"
+    },
+    "text-2": {
+      "font-size": "12px",
+      "color": "#000",
+      "position": "absolute",
+      "top": "30px",
+      "right": "68px",
+      "font-family": "ch"
+    },
+    "text-3": {
+      "position": "absolute",
+      "bottom": "-20px",
+      "left": 0,
+      "right": 0,
+      "text-align": "center",
+      "font-size": "8px",
+      "color": "#000",
+      "padding": "30px"
+    }
+  },
+  "Anniversary-3.mp4": {
+    "masking-text-1": {
+      "label": "Nama Wanita (wajib diisi)",
+      "value": "Sherly"
+    },
+    "masking-text-2": {
+      "label": "Nama Pria (wajib diisi)",
+      "value": "Angga"
+    },
+    "masking-text-3": {
+      "label": "Pesan Anda (wajib diisi max 150 karakter)",
+      "value": "A successful marriage requires falling in love many times, always with the same person"
+    },
+    "text-1": {
+      "font-size": "16px",
+      "color": "#000",
+      "position": "absolute",
+      "bottom": "32px",
+      "left": "76px",
+      "font-family": "ch"
+    },
+    "text-2": {
+      "font-size": "16px",
+      "color": "#000",
+      "position": "absolute",
+      "bottom": "32px",
+      "right": "61px",
+      "font-family": "ch"
+    },
+    "text-3": {
+      "position": "absolute",
+      "bottom": "-35px",
+      "left": 0,
+      "right": 0,
+      "text-align": "center",
+      "font-size": "8px",
+      "color": "#000",
+      "padding": "30px"
+    }
+  },
+  "Anniversary-4.mp4": {
+    "masking-text-1": {
+      "label": "Nama Wanita (wajib diisi)",
+      "value": "Sherly"
+    },
+    "masking-text-2": {
+      "label": "Nama Pria (wajib diisi)",
+      "value": "Angga"
+    },
+    "masking-text-3": {
+      "label": "Pesan Anda (wajib diisi max 150 karakter)",
+      "value": "A successful marriage requires falling in love many times, always with the same person"
+    },
+    "text-1": {
+      "font-size": "16px",
+      "color": "#000",
+      "position": "absolute",
+      "top": "94px",
+      "left": "17px",
+      "font-family": "ch"
+    },
+    "text-2": {
+      "font-size": "16px",
+      "color": "#000",
+      "position": "absolute",
+      "top": "94px",
+      "left": "85px",
+      "font-family": "ch"
+    },
+    "text-3": {
+      "width": "100px",
+      "height": "auto",
+      "position": "absolute",
+      "bottom": "35px",
+      "left": "25px",
+      "font-size": "8px",
+      "color": "#000",
+      "text-align": "right"
+    }
+  },
+  "Baby-1.mp4": {
+    "masking-text-1": {
+      "label": "Ucapan Selamat (wajib diisi)",
+      "value": "Selamat atas Kelahiran Putri Anda"
+    },
+    "masking-text-2": {
+      "label": "Pesan Anda (wajib diisi)",
+      "value": "Semoga menjadi anak yang berbakti dengan orang tua"
+    },
+    "text-1": {
+      "width": "100%",
+      "height": "auto",
+      "position": "absolute",
+      "bottom": "58px",
+      "font-family": "ch",
+      "font-size": "8px",
+      "text-align": "center",
+      "color": "#fff"
+    },
+    "text-2": {
+      "width": "180px",
+      "height": "auto",
+      "position": "absolute",
+      "bottom": "37px",
+      "left": 0,
+      "right": 0,
+      "margin": "auto",
+      "font-size": "10px",
+      "text-align": "center",
+      "color": "#df336a"
+    }
+  },
+  "Baby-2.mp4": {
+    "masking-text-1": {
+      "label": "Ucapan Selamat (wajib diisi)",
+      "value": "Selamat atas Kelahiran Putri Anda"
+    },
+    "masking-text-2": {
+      "label": "Pesan Anda (wajib diisi)",
+      "value": "Semoga menjadi anak yang berbakti dengan orang tua"
+    },
+    "text-1": {
+      "width": "100%",
+      "height": "auto",
+      "position": "absolute",
+      "bottom": "53px",
+      "font-family": "ch",
+      "font-size": "8px",
+      "text-align": "center",
+      "color": "#fff"
+    },
+    "text-2": {
+      "width": "180px",
+      "height": "auto",
+      "position": "absolute",
+      "bottom": "30px",
+      "left": 0,
+      "right": 0,
+      "margin": "auto",
+      "font-size": "10px",
+      "text-align": "center",
+      "color": "#fff"
+    }
+  },
+  "Birthday-1.mp4": {
+    "masking-text-1": {
+      "label": "Nama Nasabah (wajib diisi)",
+      "value": "Sherly"
+    },
+    "masking-text-2": {
+      "label": "Pesan Anda (wajib diisi)",
+      "value": "Wishing you a day filled with happiness and a year filled with joy!"
+    },
+    "text-1": {
+      "position": "absolute",
+      "top": "-18px",
+      "left": "16px",
+      "font-family": "adlery-pro",
+      "font-size": "28px",
+      "text-align": "center",
+      "color": "#e5bc2e"
+    },
+    "text-2": {
+      "width": "200px",
+      "position": "absolute",
+      "top": "32px",
+      "left": "15px",
+      "font-family": "ch",
+      "font-size": "14px",
+      "text-align": "left",
+      "color": "#1c2d3f"
+    }
+  },
+  "Birthday-2.mp4": {
+    "masking-text-1": {
+      "label": "Nama Nasabah (wajib diisi)",
+      "value": "Sherly"
+    },
+    "masking-text-2": {
+      "label": "Pesan Anda (wajib diisi)",
+      "value": "Wishing you a day filled with happiness and a year filled with joy!"
+    },
+    "text-1": {
+      "position": "absolute",
+      "top": "15px",
+      "left": 0,
+      "right": 0,
+      "font-family": "ch",
+      "font-size": "26px",
+      "font-weight": "bold",
+      "text-align": "center",
+      "color": "#1c2d3f"
+    },
+    "text-2": {
+      "width": "200px",
+      "height": "auto",
+      "position": "absolute",
+      "top": "80px",
+      "left": 0,
+      "right": 0,
+      "margin": "auto",
+      "font-family": "ch",
+      "font-size": "12px",
+      "text-align": "center",
+      "color": "#1c2d3f"
+    }
+  },
+  "Get-Well-Soon-1.mp4": {
+    "masking-text-1": {
+      "label": "Nama Nasabah (wajib diisi)",
+      "value": "Angga"
+    },
+    "masking-text-2": {
+      "label": "Pesan Anda (wajib diisi)",
+      "value": "Semoga Anda cepat sembuh, dan kembali menjalani aktivitas seperti sediakala."
+    },
+    "text-1": {
+      "position": "absolute",
+      "bottom": "35px",
+      "left": 0,
+      "right": 0,
+      "font-family": "ch",
+      "font-size": "22px",
+      "text-align": "center",
+      "color": "#fff"
+    },
+    "text-2": {
+      "width": "200px",
+      "position": "absolute",
+      "bottom": "20px",
+      "left": 0,
+      "right": 0,
+      "margin": "auto",
+      "font-size": "8px",
+      "text-align": "center",
+      "color": "#1c2d3f"
+    }
+  },
+  "Get-Well-Soon-2.mp4": {
+    "masking-text-1": {
+      "label": "Nama Nasabah (wajib diisi)",
+      "value": "Angga"
+    },
+    "masking-text-2": {
+      "label": "Pesan Anda (wajib diisi)",
+      "value": "Semoga Anda cepat sembuh, dan kembali menjalani aktivitas seperti sediakala."
+    },
+    "text-1": {
+      "position": "absolute",
+      "bottom": "48px",
+      "left": 0,
+      "right": 0,
+      "font-family": "ch",
+      "font-size": "22px",
+      "text-align": "center",
+      "color": "#fff"
+    },
+    "text-2": {
+      "width": "200px",
+      "position": "absolute",
+      "bottom": "30px",
+      "left": 0,
+      "right": 0,
+      "margin": "auto",
+      "font-size": "8px",
+      "text-align": "center",
+      "color": "#1c2d3f"
+    }
+  },
+  "Video-Haji-Umrah-1.mp4": {
+    "masking-text-1": {
+      "label": "Ucapan Selamat (wajib diisi)",
+      "value": "Selamat Menuaikan Ibadah Haji"
+    },
+    "masking-text-2": {
+      "label": "Pesan Anda (wajib diisi)",
+      "value": "Semoga menjadi haji yang mabrur"
+    },
+    "text-1": {
+      "position": "absolute",
+      "bottom": "25px",
+      "left": 0,
+      "right": 0,
+      "font-family": "arab",
+      "font-size": "18px",
+      "text-align": "center",
+      "color": "#eaba2b"
+    },
+    "text-2": {
+      "width": "200px",
+      "position": "absolute",
+      "bottom": "25px",
+      "left": 0,
+      "right": 0,
+      "margin": "auto",
+      "font-size": "10px",
+      "text-align": "center",
+      "color": "#fff"
+    }
+  },
+  "Video-Haji-Umrah-2.mp4": {
+    "masking-text-1": {
+      "label": "Ucapan Selamat (wajib diisi)",
+      "value": "Selamat Menuaikan Ibadah Haji"
+    },
+    "masking-text-2": {
+      "label": "Pesan Anda (wajib diisi)",
+      "value": "Semoga menjadi haji yang mabrur"
+    },
+    "text-1": {
+      "position": "absolute",
+      "bottom": "23px",
+      "left": 0,
+      "right": 0,
+      "font-family": "arab",
+      "font-size": "18px",
+      "text-align": "center",
+      "color": "#1a2c3a"
+    },
+    "text-2": {
+      "width": "200px",
+      "position": "relative",
+      "bottom": "40px",
+      "left": 0,
+      "right": 0,
+      "margin": "auto",
+      "font-size": "8px",
+      "text-align": "center",
+      "color": "#6a94a7"
+    }
+  },
+  "closing.mp4": {
+    "temp-name": {
+      "position": "absolute",
+      "bottom": "70px",
+      "left": 0,
+      "right": 0,
+      "font-size": "12px",
+      "font-weight": "bold",
+      "text-align": "center",
+      "color": "#1a2c3a"
+    },
+    "temp-hp": {
+      "position": "absolute",
+      "bottom": "35px",
+      "left": "40%",
+      "right": "0px",
+      "margin": "auto",
+      "font-size": "8px",
+      "color": "#fff"
+    }
+  }
+}

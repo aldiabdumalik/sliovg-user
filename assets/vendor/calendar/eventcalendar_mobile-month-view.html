@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+    <script>
+        // Ignore this in your implementation
+        window.isMbscDemo = true;
+    </script>
+
+    <title>Mobile month view</title>
+
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+
+    <!-- Mobiscroll JS and CSS Includes -->
+    <link rel="stylesheet" href="css/mobiscroll.jquery.min.css">
+    <script src="js/mobiscroll.jquery.min.js"></script>
+
+    <style type="text/css">
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    body,
+    html {
+        height: 100%;
+    }
+
+    .demo-mobile-month-view {
+        height: 100%;
+    }
+
+    </style>
+
+</head>
+<body>
+
+<div mbsc-page class="demo-mobile-month-view">
+  <div style="height:100%">
+      <div id="demo-mobile-month-view"></div>
+  </div>
+</div>
+
+<script>
+    mobiscroll.settings = {
+        theme: 'material',
+        themeVariant: 'light',
+        lang: 'en'
+    };
+
+    $(function () {
+    
+        var inst = $('#demo-mobile-month-view').mobiscroll().eventcalendar({
+            
+            lang: 'en',  // Specify language like: lang: 'pl' or omit setting to use default
+            theme: 'material',         // Specify theme like: theme: 'ios' or omit setting to use default
+            themeVariant: 'light',     // More info about themeVariant: https://docs.mobiscroll.com/4-10-3/eventcalendar#opt-themeVariant
+            display: 'inline',         // Specify display mode like: display: 'bottom' or omit setting to use default
+            view: {                    // More info about view: https://docs.mobiscroll.com/4-10-3/eventcalendar#opt-view
+                calendar: { type: 'month' },
+                eventList: { type: 'month', scrollable: true }
+            }
+        }).mobiscroll('getInst');
+    
+        mobiscroll.util.getJson('https://trial.mobiscroll.com/events/', function (events) {
+            inst.setEvents(events);
+        }, 'jsonp');
+    
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,106 @@
+<ons-page id="pg-reporting-detail">
+	<div class="background bg-gray"></div>
+	<div class="content">
+		<div class="step-header-1">
+			<div class="sub-header"></div>
+			<div class="my-from">
+				<h3 class="text-white" style="margin-left:15px;">DASHBOARD &nbsp;&nbsp;&nbsp;<i class="fa fa-play text-yellow"></i>&nbsp;&nbsp;&nbsp; REPORTING</h3>
+				<ul class="menu-atas">
+					<li>
+						<a href="#" onclick="myPage.resetToPage('page/dashboard.html', {animation:'slide'});">
+						<i class="fa fa-home"></i> Home</a>
+					</li>
+					<li>
+						<a href="#" onclick="myPage.resetToPage('page/myvideo.html', {animation:'slide'});">
+						<i class="fa fa-cloud-download"></i> My Video</a>
+					</li>
+					<li>
+						<a href="#" onclick="myPage.resetToPage('page/step-1.html', {animation:'slide'});">
+						<i class="fa fa-file-video-o"></i> Template Video</a>
+					</li>
+					<!-- <li>
+						<a href="#" onclick="myPage.resetToPage('page/reporting.html', {animation:'slide'});">
+						<i class="fa fa-line-chart"></i> Reporting</a>
+					</li> -->
+					<li>
+						<a href="#" onclick="myPage.resetToPage('page/calendar.html', {animation:'slide'});">
+						<i class="fa fa-calendar"></i> Calender</a>
+					</li>
+					<li>
+						<a href="#" onclick="myPage.resetToPage('page/tutorial.html', {animation:'slide'});">
+						<i class="fa fa-cog"></i> Tutorial</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="container">
+			<div class="centreeee">
+				<ons-row id="thumb-report-id" class="text-center"></ons-row>
+				<p class="text-center">Masukan data angka viewers video Anda sesuai di social media yang Anda share</p>
+				<ons-row id="report-sosmed"></ons-row>
+				<button type="button" id="input-report" class="btn btn-yellow btn-full text-white mt-20px mb-10"><i class="fa fa-edit"></i> Report</button>
+			</div>
+			<button type="button" class="btn btn-navy btn-full text-white mt-20px mb-10"  onclick="myPage.resetToPage('page/reporting.html', {animation:'slide'});"><i class="fa fa-arrow-left"></i> Back</button>
+		</div>
+	</div>
+	<ons-modal id="modal-form" direction="up">
+		<div class="modal-video">
+			<i id="close-modal-form" class="fa fa-times"></i>
+		</div>	
+		<div class="my-from">
+			<div class="form-group-all">
+				<label for="rfb">Facebook</label>
+				<div class="form-group">
+					<i id="check-rfb" class="fa fa-check-circle ic-check text-yellow hilang"></i>
+					<input type="number" id="rfb" name="rfb" class="form-control-step">
+				</div>
+			</div>
+			<div class="form-group-all">
+				<label for="rtwitter">Twitter</label>
+				<div class="form-group">
+					<i id="check-rtwitter" class="fa fa-check-circle ic-check text-yellow hilang"></i>
+					<input type="number" id="rtwitter" name="rtwitter" class="form-control-step">
+				</div>
+			</div>
+			<div class="form-group-all">
+				<label for="rig">Instagram</label>
+				<div class="form-group">
+					<i id="check-rig" class="fa fa-check-circle ic-check text-yellow hilang"></i>
+					<input type="number" id="rig" name="rig" class="form-control-step">
+				</div>
+			</div>
+			<div class="form-group-all">
+				<label for="ryt">Youtube</label>
+				<div class="form-group">
+					<i id="check-ryt" class="fa fa-check-circle ic-check text-yellow hilang"></i>
+					<input type="number" id="ryt" name="ryt" class="form-control-step">
+				</div>
+			</div>
+			<div class="form-group-all">
+				<label for="rwa">Whatsapp</label>
+				<div class="form-group">
+					<i id="check-rwa" class="fa fa-check-circle ic-check text-yellow hilang"></i>
+					<input type="number" id="rwa" name="rwa" class="form-control-step">
+				</div>
+			</div>
+			<div class="form-group-all">
+				<label for="rlinkedin">Linkedin</label>
+				<div class="form-group">
+					<i id="check-rlinkedin" class="fa fa-check-circle ic-check text-yellow hilang"></i>
+					<input type="number" id="rlinkedin" name="rlinkedin" class="form-control-step">
+				</div>
+			</div>
+			<div class="form-group">
+				<button type="button" id="btn-report-kirim" class="btn btn-yellow btn-full text-white mt-20px mb-10">Kirim</button>
+			</div>
+		</div>
+	</ons-modal>
+	<ons-modal id="modal-loading" direction="up">
+	  <div style="text-align: center">
+	    <p>
+			<i class="fa fa-circle-o-notch fa-spin fa-3x fa-fw"></i>
+			<span class="sr-only">Loading...</span>
+	    </p>
+	  </div>
+	</ons-modal>
+</ons-page>

@@ -1,0 +1,77 @@
+<ons-page id="pg-dashboard">
+	<div class="background bg-white"></div>
+	<div class="content">
+		<nav class="navbar-logo">
+			<img src="assets/img/logo-new.png" class="img-responsive img-navbar" alt="logo">
+		</nav>
+		<div class="user-profile bg-navy">
+			<div class="user-avatar">
+				<img src="#" id="myphoto" class="img-responsive centreeee img-avatar" alt="avatar">
+				<p id="txt-myname" class="text-white text-center">Name</p>
+				<button type="button" id="btn-logout" class="btn btn-white-outline text-white obj-center">Keluar</button>
+			</div>
+		</div>
+		<hr class="hr-user-profile">
+		<ons-list>
+			<ons-list-item onclick="myPage.resetToPage('page/step-1.html', {animation:'slide'});">
+				<div class="left">
+					<i class="fa fa-file-video-o fa-2x" style="color:#1a2c3a"></i>
+				</div>
+				<div class="center">
+					<span class="list-item__title">Template Video</span>
+					<span class="list-item__subtitle"></span>
+				</div>
+				<div class="right">
+					<i class="fa fa-arrow-right text-yellow"></i>
+				</div>
+			</ons-list-item>
+			<ons-list-item onclick="myPage.resetToPage('page/myvideo.html', {animation:'slide'});">
+				<div class="left">
+					<i class="fa fa-cloud-download fa-2x" style="color:#1a2c3a"></i>
+				</div>
+				<div class="center">
+					<span class="list-item__title">Video saya</span>
+					<span class="list-item__subtitle"></span>
+				</div>
+				<div class="right">
+					<i class="fa fa-arrow-right text-yellow"></i>
+				</div>
+			</ons-list-item>
+			<ons-list-item onclick="myPage.resetToPage('page/calendar.html', {animation:'slide'});">
+				<div class="left">
+					<i class="fa fa-calendar fa-2x" style="color:#1a2c3a"></i>
+				</div>
+				<div class="center">
+					<span class="list-item__title">Kalender</span>
+					<span class="list-item__subtitle"></span>
+				</div>
+				<div class="right">
+					<i class="fa fa-arrow-right text-yellow"></i>
+				</div>
+			</ons-list-item>
+			<ons-list-item onclick="myPage.resetToPage('page/tutorial.html', {animation:'slide'});">
+				<div class="left">
+					<i class="fa fa-cog fa-2x" style="color:#1a2c3a"></i>
+				</div>
+				<div class="center">
+					<span class="list-item__title">Petunjuk penggunaan</span>
+					<span class="list-item__subtitle"></span>
+				</div>
+				<div class="right">
+					<i class="fa fa-arrow-right text-yellow"></i>
+				</div>
+			</ons-list-item>
+		</ons-list>
+		<div class="bottom-yellow"></div>
+		<!-- <div class="modal2">
+	        <div class="modal2-content">
+            <span class="close-button-modal2">
+            	<i class="fa fa-times"></i>
+            </span>
+				<video id="player5" playsinline controls>
+					<source type="video/mp4" src="https://admin.sliovg.com/file/video/Video%20Quotes%20Template/video-quotes-1.mp4" />
+				</video>
+	        </div>
+	    </div> -->
+	</div>
+</ons-page>

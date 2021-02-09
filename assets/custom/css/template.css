@@ -1,0 +1,501 @@
+/*Anniversary-1.png*/
+.area-text1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 105px;
+  left: 30px;
+  width: 110px;
+  height: 30px;
+}
+.temp-text1 {
+  font-family: 'adlery-pro';
+  font-size: 22px;
+  color: #c9366c;
+  text-align: center;
+}
+.area-text2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 105px;
+  right: 30px;
+  width: 110px;
+  height: 30px;
+}
+.temp-text2 {
+  font-family: 'adlery-pro';
+  font-size: 22px;
+  color: #c9366c;
+  text-align: center;
+}
+.area-text3 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 55px;
+  width: 230px;
+  height: 50px;
+}
+.temp-text3 {
+  font-size: 11px;
+  color: #c9366c;
+  text-align: center;
+}
+/*Anniversary-1.png*/
+/*Anniversary-2.png*/
+.area-text1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: absolute;
+  top: 52px;
+  left: 0px;
+  width: 45%;
+  height: 30px;
+}
+.temp-text1 {
+  font-family: 'ch';
+  font-size: 22px;
+  color: #000;
+  text-align: right;
+}
+.area-text2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  top: 52px;
+  right: 0px;
+  width: 45%;
+  height: 30px;
+}
+.temp-text2 {
+  font-family: 'ch';
+  font-size: 22px;
+  color: #000;
+  text-align: left;
+}
+.area-text3 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  width: 230px;
+  height: 50px;
+  border: 1px solid red;
+}
+.temp-text3 {
+  font-size: 11px;
+  color: #000;
+  text-align: center;
+}
+/*Anniversary-2.png*/
+/*Anniversary-3.png*/
+.area-text1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: absolute;
+  bottom: 60px;
+  left: 0px;
+  width: 45%;
+  height: 30px;
+}
+.temp-text1 {
+  font-family: 'ch';
+  font-size: 18px;
+  color: #000;
+  text-align: right;
+}
+.area-text2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  bottom: 60px;
+  right: 0px;
+  width: 42%;
+  height: 30px;
+}
+.temp-text2 {
+  font-family: 'ch';
+  font-size: 18px;
+  color: #000;
+  text-align: left;
+}
+.area-text3 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  width: 230px;
+  height: 50px;
+}
+.temp-text3 {
+  font-size: 11px;
+  color: #c9366c;
+  text-align: center;
+}
+/*Anniversary-3.png*/
+/*Anniversary-4.png*/
+.area-text1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: absolute;
+  top: 140px;
+  left: 0px;
+  width: 22%;
+  height: 30px;
+}
+.temp-text1 {
+  font-family: 'ch';
+  font-size: 14px;
+  color: #000;
+  text-align: right;
+  text-overflow: ellipsis;
+}
+.area-text2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  top: 140px;
+  left: 110px;
+  width: 22%;
+  height: 30px;
+}
+.temp-text2 {
+  font-family: 'ch';
+  font-size: 14px;
+  color: #000;
+  text-align: left;
+}
+.area-text3 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 15px;
+  bottom: 0;
+  width: 40%;
+  height: 48%;
+  line-height: 1.6;
+}
+.temp-text3 {
+  font-size: 11px;
+  color: #000;
+  text-align: right;
+}
+/*Anniversary-4.png*/
+/*Baby-1.png*/
+.area-text1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 78px;
+  width: 70%;
+  height: 30px;
+  line-height: 0.9;
+}
+.temp-text1 {
+  font-family: 'ch';
+  font-size: 12px;
+  color: #FFF;
+  text-align: center;
+}
+.area-text2 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 30px;
+  width: 230px;
+  height: 50px;
+}
+.temp-text2 {
+  font-size: 12px;
+  color: #df336a;
+  text-align: center;
+}
+/*Baby-2.png*/
+.area-text1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 69px;
+  width: 70%;
+  height: 30px;
+  line-height: 0.9;
+}
+.temp-text1 {
+  font-family: 'ch';
+  font-size: 12px;
+  color: #FFF;
+  text-align: center;
+}
+.area-text2 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 25px;
+  width: 230px;
+  height: 50px;
+}
+.temp-text2 {
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+}
+/*Baby-2.png*/
+/*Birthday-1.png*/
+.area-text1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 20px;
+  top: 25px;
+  width: 70%;
+  height: 30px;
+}
+.temp-text1 {
+  font-family: 'adlery-pro';
+  font-size: 28px;
+  color: #e5bc2e;
+  text-align: left;
+}
+.area-text2 {
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+  top: 55px;
+  left: 20px;
+  width: 50%;
+  height: 50%;
+  line-height: 1.5;
+}
+.temp-text2 {
+  font-family: 'ch';
+  font-size: 12px;
+  color: #1c2d3f;
+  text-align: left;
+}
+/*Birthday-1.png*/
+/*Birthday-2.png*/
+.area-text1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 60px;
+  width: 80%;
+  height: 30px;
+  line-height: 1.0;
+}
+.temp-text1 {
+  font-family: 'ch';
+  font-size: 28px;
+  color: #1c2d3f;
+  text-align: center;
+  font-weight: bold;
+}
+.area-text2 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 80px;
+  width: 80%;
+  height: 50%;
+}
+.temp-text2 {
+  font-family: 'ch';
+  font-size: 14px;
+  color: #1c2d3f;
+  text-align: center;
+}
+/*Birthday-2.png*/
+/*Get-Well-Soon-1.png*/
+.area-text1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 78px;
+  width: 40%;
+  height: 30px;
+  line-height: 0.9;
+}
+.temp-text1 {
+  font-family: 'ch';
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+.area-text2 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  width: 230px;
+  height: 50px;
+}
+.temp-text2 {
+  font-size: 11px;
+  color: #1c2d3f;
+  text-align: center;
+}
+/*Get-Well-Soon-1.png*/
+/*Get-Well-Soon-2.png*/
+.area-text1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 78px;
+  width: 40%;
+  height: 30px;
+  line-height: 0.9;
+}
+.temp-text1 {
+  font-family: 'ch';
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+.area-text2 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  width: 230px;
+  height: 50px;
+}
+.temp-text2 {
+  font-size: 11px;
+  color: #1c2d3f;
+  text-align: center;
+}
+/*Get-Well-Soon-2.png*/
+/*Video-Haji-Umrah-1.png*/
+.area-text1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+  width: 90%;
+  height: 30px;
+  line-height: 1.0;
+}
+.temp-text1 {
+  font-family: 'arab';
+  font-size: 18px;
+  color: #eaba2b;
+  text-align: center;
+  font-weight: bold;
+}
+.area-text2 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  width: 80%;
+  height: 50px;
+  line-height: 1.5;
+}
+.temp-text2 {
+  font-size: 9px;
+  color: #fff;
+  text-align: center;
+}
+/*Video-Haji-Umrah-1.png*/
+/*Video-Haji-Umrah-2.png*/
+.area-text1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 45px;
+  width: 90%;
+  height: 30px;
+  line-height: 1.0;
+}
+.temp-text1 {
+  font-family: 'arab';
+  font-size: 18px;
+  color: #1a2c3a;
+  text-align: center;
+  font-weight: bold;
+}
+.area-text2 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  width: 80%;
+  height: 50px;
+  line-height: 1.5;
+}
+.temp-text2 {
+  font-size: 9px;
+  color: #6a94a7;
+  text-align: center;
+}
+/*Video-Haji-Umrah-2.png*/

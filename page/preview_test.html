@@ -1,0 +1,100 @@
+<ons-page id="pg-preview-test">
+  <div class="background bg-gray"></div>
+  <div class="content">
+    <div class="step-header-1">
+      <div class="sub-header">
+        <h3 class="text-white">Preview</h3>
+      </div>
+      <div class="step-proses text-white" style="font-size: 14px;">
+        <span>Pilih template &nbsp;&nbsp;</span>
+        <i class="fa fa-play text-yellow"></i>
+        <span>&nbsp;&nbsp; Edit Video &nbsp;&nbsp;</span>
+        <i class="fa fa-play text-yellow"></i>
+        <span>&nbsp;&nbsp; Pilih musik &nbsp;&nbsp;&nbsp;</span>
+        <i class="fa fa-play text-yellow"></i>
+        <span>&nbsp;&nbsp; Proses Video </span>
+      </div>
+      <hr class="step-hr" />
+      <div class="my-from">
+        <ul class="menu-atas">
+          <li>
+            <a
+              href="#"
+              onclick="myPage.resetToPage('page/dashboard.html', {animation:'slide'});"
+            >
+              <i class="fa fa-home"></i> Beranda</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              onclick="myPage.resetToPage('page/myvideo.html', {animation:'slide'});"
+            >
+              <i class="fa fa-cloud-download"></i> Video saya</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              onclick="myPage.resetToPage('page/step-1.html', {animation:'slide'});"
+            >
+              <i class="fa fa-file-video-o"></i> Template Video</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              onclick="myPage.resetToPage('page/calendar.html', {animation:'slide'});"
+            >
+              <i class="fa fa-calendar"></i> Kalender</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              onclick="myPage.resetToPage('page/tutorial.html', {animation:'slide'});"
+            >
+              <i class="fa fa-cog"></i> Petunjuk penggunaan</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <div class="step-template">
+        <div id="judul-template-preview" class="judul-template text-center mb-10"></div>
+        <div id="bg-template" class="bg-template">
+          <img src="./template/kosong/Video-Haji-Umrah-2.png" id="foto-template" class="img-responsive" alt="template preview"/>
+          <div class="area-text1">
+            <p class="temp-text1">Selamat Menunaikan Ibadah Haji Ibu Yusmita Dwi</p>
+          </div>
+          <div class="area-text2">
+            <p class="temp-text2">This is a free online calculator which counts the number of characters or letters in a text, useful for your tweets on Twitter, as well as a multitude</p>
+          </div>
+          <!-- <div class="area-text3">
+            <p class="temp-text3">
+              This is a free online calculator which counts the number of characters or letters in a text, useful for your tweets on Twitter, as well as a multitude
+            </p>
+          </div> -->
+        </div>
+        <div style="padding-top: 10px;"></div>
+      </div>
+      <ons-row class="mb-10">
+        <ons-col>
+          <button type="button" id="btn-ok" class="btn btn-navy btn-full text-white mt-20px">
+            OK
+          </button>
+        </ons-col>
+      </ons-row>
+    </div>
+  </div>
+  <ons-modal direction="up">
+    <div style="text-align: center">
+      <p>
+      <i class="fa fa-circle-o-notch fa-spin fa-3x fa-fw"></i>
+      <span class="sr-only">Loading...</span>
+      </p>
+    Mohon menunggu...
+    </div>
+  </ons-modal>
+</ons-page>

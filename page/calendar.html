@@ -1,0 +1,45 @@
+<ons-page id="pg-calendar">
+	<div class="background bg-gray"></div>
+	<div class="content">
+		<div class="step-header-1">
+			<div class="sub-header"></div>
+			<div class="my-from">
+				<h3 class="text-white" style="margin-left:15px;">DASHBOARD &nbsp;&nbsp;&nbsp;<i class="fa fa-play text-yellow"></i>&nbsp;&nbsp;&nbsp; KALENDER</h3>
+				<ul class="menu-atas">
+					<li>
+						<a href="#" onclick="myPage.resetToPage('page/dashboard.html', {animation:'slide'});">
+						<i class="fa fa-home"></i> Beranda</a>
+					</li>
+					<li>
+						<a href="#" onclick="myPage.resetToPage('page/myvideo.html', {animation:'slide'});">
+						<i class="fa fa-cloud-download"></i> Video saya</a>
+					</li>
+					<li>
+						<a href="#" onclick="myPage.resetToPage('page/step-1.html', {animation:'slide'});">
+						<i class="fa fa-file-video-o"></i> Template Video</a>
+					</li>
+					<!-- <li>
+						<a href="#" onclick="myPage.resetToPage('page/reporting.html', {animation:'slide'});">
+						<i class="fa fa-line-chart"></i> Reporting</a>
+					</li> -->
+					<li>
+						<a href="#">
+						<i class="fa fa-calendar"></i> Kalender</a>
+					</li>
+					<li>
+						<a href="#" onclick="myPage.resetToPage('page/tutorial.html', {animation:'slide'});">
+						<i class="fa fa-cog"></i> Petunjuk penggunaan</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="container" style="margin-top:15px;">
+			<div id="calendar"></div>
+			<p align="center">Click event untuk mengetahui detail event</p>
+		</div>
+		<ons-list id="detail-event"></ons-list>
+		<div class="container">
+			<button type="button" class="btn btn-navy btn-full text-white mt-20px mb-10"  onclick="myPage.resetToPage('page/dashboard.html', {animation:'slide'});"><i class="fa fa-arrow-left"></i> Kembali</button>
+		</div>
+	</div>
+</ons-page>

@@ -1,0 +1,68 @@
+<ons-page id="pg-review">
+	<div class="background bg-gray"></div>
+	<div class="content">
+		<div class="step-header-1">
+			<div class="sub-header">
+				<h3 class="text-white">TEMPLATE VIDEO</h3>
+			</div>
+			<div class="step-proses text-white" style="font-size:14px;">
+				<span>Pilih template &nbsp;&nbsp;</span>
+				<i class="fa fa-play text-yellow"></i>
+				<span>&nbsp;&nbsp; Edit Video &nbsp;&nbsp;</span>
+				<i class="fa fa-play text-yellow"></i>
+				<span>&nbsp;&nbsp; Pilih musik &nbsp;&nbsp;&nbsp;</span>
+				<i class="fa fa-play text-yellow"></i>
+				<span>&nbsp;&nbsp; Proses Video </span>
+			</div>
+			<hr class="step-hr" />
+			<div class="my-from" style="margin-top:50px;">
+				<ul class="menu-atas">
+					<li>
+						<a href="#" onclick="myPage.resetToPage('page/dashboard.html', {animation:'slide'});">
+						<i class="fa fa-home"></i> Beranda</a>
+					</li>
+					<li>
+						<a href="#" onclick="myPage.resetToPage('page/myvideo.html', {animation:'slide'});">
+						<i class="fa fa-cloud-download"></i> Video saya</a>
+					</li>
+					<li>
+						<a href="#" onclick="myPage.resetToPage('page/step-1.html', {animation:'slide'});">
+						<i class="fa fa-file-video-o"></i> Template Video</a>
+					</li>
+					<li>
+						<a href="#" onclick="myPage.resetToPage('page/calendar.html', {animation:'slide'});">
+						<i class="fa fa-calendar"></i> Kalender</a>
+					</li>
+					<li>
+						<a href="#" onclick="myPage.resetToPage('page/tutorial.html', {animation:'slide'});">
+						<i class="fa fa-cog"></i> Petunjuk penggunaan</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="container">
+			<div class="centreeee">
+				<ons-row class="bg-white" style="margin-top: 25px;padding:10px;">
+					<ons-col width="100%">
+						<video id="playeri" class="video-js vjs-theme-fantasy" data-setup='{}'></video>
+					</ons-col>
+					<ons-col width="100%">
+						<h5 id="jdl-tmp" class="text-center">Judul</h5>
+					</ons-col>
+					<ons-col width="100%">
+						<button id="btn-stop-video" class="btn-watch text-white" style="margin-top:10px;">Tutup</button>
+					</ons-col>
+				</ons-row>
+			</div>
+		</div>
+	</div>
+	<ons-modal direction="up">
+	  <div style="text-align: center">
+	    <p>
+			<i class="fa fa-circle-o-notch fa-spin fa-3x fa-fw"></i>
+			<span class="sr-only">Loading...</span>
+	    </p>
+	    Mohon menunggu...
+	  </div>
+	</ons-modal>
+</ons-page>

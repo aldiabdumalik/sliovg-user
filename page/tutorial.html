@@ -1,0 +1,63 @@
+<ons-page id="pg-tutorial">
+	<div class="background bg-gray"></div>
+	<div class="content">
+		<div class="step-header-1">
+			<div class="sub-header"></div>
+			<div class="my-from" style="margin-top:50px;">
+				<h3 class="text-white" style="margin-left:15px;">DASHBOARD &nbsp;&nbsp;&nbsp;<i class="fa fa-play text-yellow"></i>&nbsp;&nbsp;&nbsp; PETUNJUK PENGGUNAAN</h3>
+				<ul class="menu-atas">
+					<li>
+						<a href="#" onclick="myPage.resetToPage('page/dashboard.html', {animation:'slide'});">
+						<i class="fa fa-home"></i> Beranda</a>
+					</li>
+					<li>
+						<a href="#" onclick="myPage.resetToPage('page/myvideo.html', {animation:'slide'});">
+						<i class="fa fa-cloud-download"></i> Video saya</a>
+					</li>
+					<li>
+						<a href="#" onclick="myPage.resetToPage('page/step-1.html', {animation:'slide'});">
+						<i class="fa fa-file-video-o"></i> Template Video</a>
+					</li>
+					<!-- <li>
+						<a href="#" onclick="myPage.resetToPage('page/reporting.html', {animation:'slide'});">
+						<i class="fa fa-line-chart"></i> Reporting</a>
+					</li> -->
+					<li>
+						<a href="#" onclick="myPage.resetToPage('page/calendar.html', {animation:'slide'});">
+						<i class="fa fa-calendar"></i> Kalender</a>
+					</li>
+					<li>
+						<a href="#">
+						<i class="fa fa-cog"></i> Petunjuk penggunaan</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="container">
+			<div class="centreeee">
+				<ons-row class="bg-white" style="margin-top: 25px;padding:10px;">
+					<ons-col width="100%">
+						<video id="playerz" playsinline controls>
+							<source type="video/mp4" />
+						</video>
+					</ons-col>
+					<ons-col width="70%">
+						<h3>Petunjuk penggunaan</h3>
+					</ons-col>
+					<ons-col width="30%">
+						<button class="btn-watch text-white" style="margin-top:10px;">Watch</button>
+					</ons-col>
+				</ons-row>
+			</div>
+		</div>
+	</div>
+	<ons-modal direction="up">
+	  <div style="text-align: center">
+	    <p>
+			<i class="fa fa-circle-o-notch fa-spin fa-3x fa-fw"></i>
+			<span class="sr-only">Loading...</span>
+	    </p>
+	    Mohon menunggu...
+	  </div>
+	</ons-modal>
+</ons-page>

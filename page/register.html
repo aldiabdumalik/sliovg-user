@@ -1,0 +1,60 @@
+<ons-page id="pg-register">
+	<div class="background bg-navy"></div>
+	<div class="content">
+		<div class="container">
+			<div class="icon-user-register">
+				<i class="fa fa-user-circle"></i>
+			</div>
+			<p class="text-register text-white">CREATE <span class="text-bold">ACCOUNT</span></p>
+			<hr class="hr-register">
+			
+			<form id="form-register" class="my-from">
+				<div class="form-group">
+					<i id="check-name" class="fa fa-check-circle icon-check hilang"></i>
+					<input type="text" name="name" id="name" class="form-control-check" placeholder="Name" autocomplete="off">
+				</div>
+				<div class="form-group">
+					<i id="check-number" class="fa fa-check-circle icon-check hilang"></i>
+					<input type="number" name="number" id="number" class="form-control-check" placeholder="Agent Number" autocomplete="off">
+				</div>
+				<div class="form-group">
+					<i id="check-email" class="fa fa-check-circle icon-check hilang"></i>
+					<input type="email" name="email" id="email" class="form-control-check" placeholder="Email" autocomplete="off">
+				</div>
+				<div class="form-group">
+					<i id="check-whatsapp" class="fa fa-check-circle icon-check hilang"></i>
+					<input type="number" name="whatsapp" id="whatsapp" class="form-control-check" placeholder="Whatsapp number" autocomplete="off">
+				</div>
+				<div class="form-group">
+					<i id="check-rpassword" class="fa fa-check-circle icon-check hilang"></i>
+					<input type="text" name="rpassword" id="rpassword" class="form-control-check" placeholder="Password" autocomplete="off">
+				</div>
+				<div class="form-group">
+					<i id="check-photo" class="fa fa-check-circle icon-check hilang"></i>
+					<input type="text" name="photo" id="photo" class="form-control-check" placeholder="Upload Photo" autocomplete="off" readonly>
+				</div>
+				<div class="form-group">
+					<label class="btn btn-yellow text-navy fl-right w-50 text-center">
+						upload
+						<input type="file" name="file-photo-user" id="file-photo-user" accept="image/*" style="display: none;">
+					</label>
+				</div>
+				<div class="form-group" style="margin-top:70px;">
+					<button type="button" id="btn-daftar" class="btn btn-navy-outline btn-full text-navy">Register</button>
+				</div>
+				<div class="form-group">
+					<button type="button" class="btn btn-yellow btn-full text-navy" onclick="myPage.resetToPage('page/login.html', {animation:'slide'});">Sign In</button>
+				</div>
+			</form>
+		</div>
+		<!-- <div class="bottom-yellow"></div> -->
+	</div>
+	<ons-modal direction="up">
+	  <div style="text-align: center">
+	    <p>
+			<i class="fa fa-circle-o-notch fa-spin fa-3x fa-fw"></i>
+			<span class="sr-only">Loading...</span>
+	    </p>
+	  </div>
+	</ons-modal>
+</ons-page>
